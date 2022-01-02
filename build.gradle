@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.17.2'
+    compile group: 'org.testng', name: 'testng', version: '7.1.0'
+}
