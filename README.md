@@ -1,0 +1,1 @@
+This is the sample project as an introduction to Playwright
